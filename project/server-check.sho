@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo "Date:"
+date
+
+echo
+
+echo "Hostname:"
+hostname
+
+echo
+
+echo "Current User:"
+whoami
+
+echo
+
+echo "Currnnt Directory:"
+pwd
+
+echo
+
+echo "Disk Usage:"
+df -ho
+
+
+echo
+
+echo "Memory Usage:"
+free -h
+
+echo
+
+echo "CPU Load:"
+uptime
